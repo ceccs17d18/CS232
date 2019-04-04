@@ -1,0 +1,33 @@
+s4d1@clab1-Veriton-Series:~$ sftp cs17d18@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d18@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put fed3.jpg
+Uploading fed3.jpg to /home/cs17d18/fed3.jpg
+fed3.jpg                                      100% 4833KB  11.1MB/s   00:00    
+sftp> put fed1.jpg
+Uploading fed1.jpg to /home/cs17d18/fed1.jpg
+fed1.jpg                                      100% 5363KB  11.1MB/s   00:00    
+sftp> put fed2.jpg
+Uploading fed2.jpg to /home/cs17d18/fed2.jpg
+fed2.jpg                                      100% 4754KB  11.0MB/s   00:00    
+sftp> put fed4.jpg
+Uploading fed4.jpg to /home/cs17d18/fed4.jpg
+fed4.jpg                                      100% 5189KB  11.1MB/s   00:00    
+sftp> put fed5.jpg
+Uploading fed5.jpg to /home/cs17d18/fed5.jpg
+fed5.jpg                                      100% 4379KB  10.9MB/s   00:00    
+sftp> get fed5.txt
+File "/home/cs17d18/fed5.txt" not found.
+sftp> put task2.txt
+Uploading task2.txt to /home/cs17d18/task2.txt
+task2.txt                                     100%   28KB   6.8MB/s   00:00    
+sftp> get task2.txt
+Fetching /home/cs17d18/task2.txt to task2.txt
+/home/cs17d18/task2.txt                       100%   28KB   5.7MB/s   00:00    
+sftp> 
+
